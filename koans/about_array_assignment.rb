@@ -37,7 +37,7 @@ class AboutArrayAssignment < Neo::Koan
   end
 
   def test_parallel_assignment_with_one_variable
-    first_name, = ["John", "Smith"]
+    first_name, = ["John"]
     assert_equal "John", first_name
   end
 
